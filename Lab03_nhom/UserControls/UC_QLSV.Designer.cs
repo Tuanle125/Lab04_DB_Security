@@ -33,7 +33,7 @@ namespace Lab03_nhom.UserControls
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.buttonSua = new System.Windows.Forms.Button();
-            this.buttonLuu = new System.Windows.Forms.Button();
+            this.buttonThem = new System.Windows.Forms.Button();
             this.buttonNhapDiem = new System.Windows.Forms.Button();
             this.buttonTaiLai = new System.Windows.Forms.Button();
             this.dataGridViewSV = new System.Windows.Forms.DataGridView();
@@ -135,7 +135,7 @@ namespace Lab03_nhom.UserControls
             // 
             // buttonSua
             // 
-            this.buttonSua.Location = new System.Drawing.Point(604, 54);
+            this.buttonSua.Location = new System.Drawing.Point(738, 54);
             this.buttonSua.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSua.Name = "buttonSua";
             this.buttonSua.Size = new System.Drawing.Size(118, 25);
@@ -144,16 +144,16 @@ namespace Lab03_nhom.UserControls
             this.buttonSua.UseVisualStyleBackColor = true;
             this.buttonSua.Click += new System.EventHandler(this.buttonSua_Click);
             // 
-            // buttonLuu
+            // buttonThem
             // 
-            this.buttonLuu.Location = new System.Drawing.Point(738, 54);
-            this.buttonLuu.Margin = new System.Windows.Forms.Padding(2);
-            this.buttonLuu.Name = "buttonLuu";
-            this.buttonLuu.Size = new System.Drawing.Size(121, 25);
-            this.buttonLuu.TabIndex = 10;
-            this.buttonLuu.Text = "Lưu";
-            this.buttonLuu.UseVisualStyleBackColor = true;
-            this.buttonLuu.Click += new System.EventHandler(this.buttonLuu_Click);
+            this.buttonThem.Location = new System.Drawing.Point(604, 54);
+            this.buttonThem.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonThem.Name = "buttonThem";
+            this.buttonThem.Size = new System.Drawing.Size(121, 25);
+            this.buttonThem.TabIndex = 10;
+            this.buttonThem.Text = "Thêm";
+            this.buttonThem.UseVisualStyleBackColor = true;
+            this.buttonThem.Click += new System.EventHandler(this.buttonLuu_Click);
             // 
             // buttonNhapDiem
             // 
@@ -313,7 +313,7 @@ namespace Lab03_nhom.UserControls
             this.Controls.Add(this.dataGridViewSV);
             this.Controls.Add(this.buttonTaiLai);
             this.Controls.Add(this.buttonNhapDiem);
-            this.Controls.Add(this.buttonLuu);
+            this.Controls.Add(this.buttonThem);
             this.Controls.Add(this.buttonSua);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -345,7 +345,7 @@ namespace Lab03_nhom.UserControls
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button buttonSua;
-        private System.Windows.Forms.Button buttonLuu;
+        private System.Windows.Forms.Button buttonThem;
         private System.Windows.Forms.Button buttonNhapDiem;
         private System.Windows.Forms.Button buttonTaiLai;
         private System.Windows.Forms.DataGridView dataGridViewSV;
