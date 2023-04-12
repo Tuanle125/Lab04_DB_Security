@@ -30,3 +30,67 @@ C:\Users\ASUS\OneDrive\Máy tính\Bảo Mật CSDL\Lab4-Nhom\Lab03_nhom\obj\Debu
 C:\Users\ASUS\OneDrive\Máy tính\Bảo Mật CSDL\Lab4-Nhom\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.pdb
 C:\Users\ASUS\OneDrive\Máy tính\Bảo Mật CSDL\Lab4-Nhom\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.genruntimeconfig.cache
 C:\Users\ASUS\OneDrive\Máy tính\Bảo Mật CSDL\Lab4-Nhom\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLNV.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.exe
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.deps.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.runtimeconfig.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.runtimeconfig.dev.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.pdb
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.AssemblyReference.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.DangNhap.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.Form1.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.NhapDiem.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.Properties.Resources.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_Home.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_NhapDiem.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLLH.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLNV.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLSV.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.GenerateResource.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.AssemblyInfoInputs.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.AssemblyInfo.cs
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.CoreCompileInputs.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.CopyComplete
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.pdb
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4-\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.genruntimeconfig.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.exe
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.deps.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.runtimeconfig.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.runtimeconfig.dev.json
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\Lab03_nhom.pdb
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\FontAwesome.Sharp.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.AssemblyReference.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.DangNhap.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.Form1.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.NhapDiem.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.Properties.Resources.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_Home.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_NhapDiem.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLLH.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLNV.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.UserControls.UC_QLSV.resources
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.GenerateResource.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.AssemblyInfoInputs.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.AssemblyInfo.cs
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.CoreCompileInputs.cache
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.csproj.CopyComplete
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.dll
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.pdb
+D:\Bi\DH\Subject\Bảo Mật Cơ Sở Dữ Liệu\Lab4- Nhóm\Lab04_DB_Security\Lab03_nhom\obj\Debug\netcoreapp3.1\Lab03_nhom.genruntimeconfig.cache
