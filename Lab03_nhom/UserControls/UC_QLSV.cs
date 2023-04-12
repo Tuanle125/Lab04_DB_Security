@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.Security.Cryptography;
 using System.Text;
 using System.Windows.Forms; 
 namespace Lab03_nhom.UserControls
@@ -32,7 +33,6 @@ namespace Lab03_nhom.UserControls
             tenLop.DisplayMember = "TENLOP";
             tenLop.DataSource = FetchNameLOP(); 
             
-            TbMaSV.ReadOnly = true;
             dataGridViewSV_List();
         }
         private DataTable FetchSinhVien()
@@ -71,10 +71,7 @@ namespace Lab03_nhom.UserControls
             TbTenDN.Text = TenDN;
 
 
-            TbHoTen.ReadOnly = true;
-            TbDiaChi.ReadOnly = true;
-            TbTenDN.ReadOnly = true;
-            TbMatKhau.ReadOnly = true;
+            
         }
         private DataTable FetchNameNV()
         {
@@ -121,57 +118,131 @@ namespace Lab03_nhom.UserControls
 
         private void buttonSua_Click(object sender, EventArgs e)
         {
-            TbHoTen.ReadOnly = false;
-            TbDiaChi.ReadOnly = false;
-            TbTenDN.ReadOnly = false;
-            TbMatKhau.ReadOnly = false;
-        }
-
-        private void buttonLuu_Click(object sender, EventArgs e)
-        {
             if (sqlconn.State == ConnectionState.Closed)
             {
                 sqlconn.Open();
             }
-            String MaSV = TbMaSV.Text;
-            String HoTen = TbHoTen.Text;
-            String DiaChi = TbDiaChi.Text;
-            String TenDN = TbTenDN.Text;
-            String MatKhau = TbMatKhau.Text;
-            DateTime NgaySinh = dateTimePicker1.Value;
-
-            if (MatKhau == "")
+            String MaSV = TbMaSV.Text.Trim();
+            if (MaSV == "")
             {
-                cmd = new SqlCommand("SP_UPDATESV_NOPASSWORD", sqlconn)
-                {
-                    CommandType = CommandType.StoredProcedure
-                };
-                cmd.Parameters.Add("@MASV", SqlDbType.VarChar, 50).Value = MaSV;
-                cmd.Parameters.Add("@HOTEN", SqlDbType.NVarChar, 50).Value = HoTen;
-                cmd.Parameters.Add("@NGAYSINH", SqlDbType.DateTime).Value = NgaySinh;
-                cmd.Parameters.Add("@DIACHI", SqlDbType.NVarChar, 100).Value = DiaChi;
-                cmd.Parameters.Add("@MALOP", SqlDbType.VarChar, 50).Value = MALOP;
-                cmd.Parameters.Add("@TENDN", SqlDbType.VarChar, 50).Value = TenDN;
-                cmd.ExecuteReader();
-                MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                dataGridViewSV_List();
+                MessageBox.Show("Hãy nhập mã nhân viên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            cmd = new SqlCommand("SP_CHECK_SV", sqlconn)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+            cmd.Parameters.Add("@MASV", SqlDbType.VarChar, 20).Value = MaSV;
+            SqlDataReader kq = cmd.ExecuteReader();
+            if (!kq.HasRows)
+            {
+                MessageBox.Show("Mã nhân viên không tồn tại!!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
             else
             {
-                cmd = new SqlCommand("SP_UPDATESV_PASSWORD", sqlconn)
+                try
                 {
-                    CommandType = CommandType.StoredProcedure
-                };
-                cmd.Parameters.Add("MASV", SqlDbType.VarChar, 50).Value = MaSV;
-                cmd.Parameters.Add("HOTEN", SqlDbType.NVarChar, 50).Value = HoTen;
-                cmd.Parameters.Add("NGAYSINH", SqlDbType.DateTime).Value = NgaySinh;
-                cmd.Parameters.Add("DIACHI", SqlDbType.NVarChar, 100).Value = DiaChi;
-                cmd.Parameters.Add("MALOP", SqlDbType.VarChar, 50).Value = MALOP;
-                cmd.Parameters.Add("TENDN", SqlDbType.VarChar, 50).Value = TenDN;
-                cmd.Parameters.Add("MATKHAU", SqlDbType.VarChar, 50).Value = MatKhau;
-                cmd.ExecuteReader();
-                MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                dataGridViewSV_List();
+                    String HoTen = TbHoTen.Text;
+                    String DiaChi = TbDiaChi.Text;
+                    String TenDN = TbTenDN.Text;
+                    String MatKhau = TbMatKhau.Text;
+                    DateTime NgaySinh = dateTimePicker1.Value;
+                    if (MatKhau == "")
+                    {
+                        cmd = new SqlCommand("SP_UPDATESV_NOPASSWORD", sqlconn)
+                        {
+                            CommandType = CommandType.StoredProcedure
+                        };
+                        cmd.Parameters.Add("@MASV", SqlDbType.VarChar, 50).Value = MaSV;
+                        cmd.Parameters.Add("@HOTEN", SqlDbType.NVarChar, 50).Value = HoTen;
+                        cmd.Parameters.Add("@NGAYSINH", SqlDbType.DateTime).Value = NgaySinh;
+                        cmd.Parameters.Add("@DIACHI", SqlDbType.NVarChar, 100).Value = DiaChi;
+                        cmd.Parameters.Add("@MALOP", SqlDbType.VarChar, 50).Value = MALOP;
+                        cmd.Parameters.Add("@TENDN", SqlDbType.VarChar, 50).Value = TenDN;
+                        cmd.ExecuteReader();
+                        MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        dataGridViewSV_List();
+                    }
+                    else
+                    {
+                        cmd = new SqlCommand("SP_UPDATESV_PASSWORD", sqlconn)
+                        {
+                            CommandType = CommandType.StoredProcedure
+                        };
+                        cmd.Parameters.Add("MASV", SqlDbType.VarChar, 50).Value = MaSV;
+                        cmd.Parameters.Add("HOTEN", SqlDbType.NVarChar, 50).Value = HoTen;
+                        cmd.Parameters.Add("NGAYSINH", SqlDbType.DateTime).Value = NgaySinh;
+                        cmd.Parameters.Add("DIACHI", SqlDbType.NVarChar, 100).Value = DiaChi;
+                        cmd.Parameters.Add("MALOP", SqlDbType.VarChar, 50).Value = MALOP;
+                        cmd.Parameters.Add("TENDN", SqlDbType.VarChar, 50).Value = TenDN;
+                        cmd.Parameters.Add("MATKHAU", SqlDbType.VarChar, 50).Value = MatKhau;
+                        cmd.ExecuteReader();
+                        MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        dataGridViewSV_List();
+                    }
+                }
+                catch
+                {
+                    MessageBox.Show("Dữ liệu không hợp lệ!!!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
+            }
+            
+        }
+
+        private void buttonLuu_Click(object sender, EventArgs e)
+        {
+            var MaSV = TbMaSV.Text.Trim();
+            if (MaSV == "")
+            {
+                MessageBox.Show("Hãy nhập mã nhân viên", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (sqlconn.State == ConnectionState.Closed)
+            {
+                sqlconn.Open();
+            }
+            cmd = new SqlCommand("SP_CHECK_SV", sqlconn)
+            {
+                CommandType = CommandType.StoredProcedure
+            };
+            cmd.Parameters.Add("@MASV", SqlDbType.VarChar, 20).Value = MaSV;
+            SqlDataReader kq = cmd.ExecuteReader();
+            if (kq.HasRows)
+            {
+                MessageBox.Show("Mã nhân viên đã tồn tại!!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                try
+                {
+                    String HoTen = TbHoTen.Text;
+                    String DiaChi = TbDiaChi.Text;
+                    String TenDN = TbTenDN.Text;
+                    String MatKhau = TbMatKhau.Text;
+                    DateTime NgaySinh = dateTimePicker1.Value;
+                    byte[] bytes = Encrypt.Encrypt.CreateMD5(MatKhau);
+
+
+                    cmd = new SqlCommand("SP_INS_SINHVIEN", sqlconn)
+                    {
+                        CommandType = CommandType.StoredProcedure
+                    };
+                    cmd.Parameters.Add("MASV", SqlDbType.VarChar, 50).Value = MaSV;
+                    cmd.Parameters.Add("HOTEN", SqlDbType.NVarChar, 100).Value = HoTen;
+                    cmd.Parameters.Add("NGAYSINH", SqlDbType.DateTime).Value = NgaySinh;
+                    cmd.Parameters.Add("DIACHI", SqlDbType.NVarChar, 100).Value = DiaChi;
+                    cmd.Parameters.Add("MALOP", SqlDbType.VarChar, 50).Value = MALOP;
+                    cmd.Parameters.Add("TENDN", SqlDbType.VarChar, 50).Value = TenDN;
+                    cmd.Parameters.Add("MATKHAU", SqlDbType.VarBinary).Value = bytes;
+                    cmd.ExecuteReader();
+                    MessageBox.Show("Thêm Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    dataGridViewSV_List();
+                }
+                catch
+                {
+                    MessageBox.Show("Dữ liệu không hợp lệ!!!", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
         private int FetchSoLuongSinhVien(string Malop)
