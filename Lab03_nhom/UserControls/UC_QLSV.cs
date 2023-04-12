@@ -275,7 +275,7 @@ namespace Lab03_nhom.UserControls
                 CommandType = CommandType.StoredProcedure
             };
             cmd_check.Parameters.Add("@TENLOP", SqlDbType.NVarChar,100).Value = ClassName;
-            SqlDataReader check_MLop = cmd_check.ExecuteReader();  
+            SqlDataReader check_MLop = cmd_check.ExecuteReader();
             if (check_MLop.Read())
             {
                 UC_QLSV.MALOP = check_MLop[0].ToString();

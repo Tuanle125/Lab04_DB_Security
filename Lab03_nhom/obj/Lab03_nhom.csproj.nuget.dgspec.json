@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Bảo Mật CSDL\\Lab4-Nhom\\Lab03_nhom\\Lab03_nhom.csproj": {}
+    "D:\\Bi\\DH\\Subject\\Bảo Mật Cơ Sở Dữ Liệu\\Lab4- Nhóm\\Lab04_DB_Security\\Lab03_nhom\\Lab03_nhom.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Bảo Mật CSDL\\Lab4-Nhom\\Lab03_nhom\\Lab03_nhom.csproj": {
+    "D:\\Bi\\DH\\Subject\\Bảo Mật Cơ Sở Dữ Liệu\\Lab4- Nhóm\\Lab04_DB_Security\\Lab03_nhom\\Lab03_nhom.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Bảo Mật CSDL\\Lab4-Nhom\\Lab03_nhom\\Lab03_nhom.csproj",
+        "projectUniqueName": "D:\\Bi\\DH\\Subject\\Bảo Mật Cơ Sở Dữ Liệu\\Lab4- Nhóm\\Lab04_DB_Security\\Lab03_nhom\\Lab03_nhom.csproj",
         "projectName": "Lab03_nhom",
-        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Bảo Mật CSDL\\Lab4-Nhom\\Lab03_nhom\\Lab03_nhom.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Máy tính\\Bảo Mật CSDL\\Lab4-Nhom\\Lab03_nhom\\obj\\",
+        "projectPath": "D:\\Bi\\DH\\Subject\\Bảo Mật Cơ Sở Dữ Liệu\\Lab4- Nhóm\\Lab04_DB_Security\\Lab03_nhom\\Lab03_nhom.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Bi\\DH\\Subject\\Bảo Mật Cơ Sở Dữ Liệu\\Lab4- Nhóm\\Lab04_DB_Security\\Lab03_nhom\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
